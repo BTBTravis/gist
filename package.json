@@ -1,0 +1,24 @@
+{
+  "name": "gist-uploader",
+  "version": "1.0.0",
+  "description": "A quick little gist uploader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gist",
+    "uploader",
+    "upload"
+  ],
+  "author": "Travis Shears",
+  "license": "MIT",
+  "bin": {
+    "gist": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "commander": "^2.13.0",
+    "dotenv": "^5.0.0"
+  }
+}
